@@ -1,0 +1,9 @@
+name: leftpad
+version: 1.0.0
+build-type: Simple
+cabal-version: >= 1.2
+
+library
+  exposed-modules: Data.Text.LeftPad
+  build-depends: base
+               , text
